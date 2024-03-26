@@ -1,0 +1,7 @@
+/**/node_modules
+/**/dist
+/**/bak
+/**/.next
+
+# vue.config.js
+# postcss.config.js

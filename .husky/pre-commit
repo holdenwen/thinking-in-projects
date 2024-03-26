@@ -1,0 +1,13 @@
+###
+ # @Author: holden.wen
+ # @Date: 2024-03-24 21:56:12
+ # @LastEditTime: 2024-03-24 22:04:17
+ # @LastEditors: holden.wen
+ # @Description: file content
+ # @FilePath: /thinking-in-projects/.husky/_/pre-commit
+###
+
+#!/usr/bin/env sh
+. "${0%/*}/h"
+
+pnpm lint-staged --config lint-staged.config.js
