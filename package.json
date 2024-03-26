@@ -11,7 +11,7 @@
     "start-parallel": "pnpm -r --parallel --filter='./apps/*' run dev",
     "dev": "pnpm -r --filter='./apps/*' run dev",
     "lint": "pnpm -r --filter='./apps/*' run lint",
-    "prepare": "husky install",
+    "prepare": "husky",
     "lint-staged": "lint-staged"
   },
   "keywords": [],
